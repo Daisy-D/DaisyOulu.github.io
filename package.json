@@ -1,0 +1,47 @@
+{
+  "name": "myBlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./pack/devServer.js --open",
+    "build": "webpack --progress --hide-modules --config ./pack/webpack.build.config.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "iview": "^2.9.2",
+    "less": "^2.7.3",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.9",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "vue-loader": "^14.1.1",
+    "vue-style-loader": "^3.1.2",
+    "webpack-dev-middleware": "^2.0.5",
+    "webpack-dev-server": "^2.10.0",
+    "webpack-hot-middleware": "^2.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaisyOulu/DaisyOulu.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaisyOulu/DaisyOulu.github.io/issues"
+  },
+  "homepage": "https://github.com/DaisyOulu/DaisyOulu.github.io#readme"
+}
